@@ -24,7 +24,7 @@ export async function loader({context, params}: LoaderArgs) {
   }
 
   // TODO: Query for this?
-  return json({shopName: 'Hydrogen'});
+  return json({shopName: 'Fever Creek'});
 }
 
 type ActionData = {
